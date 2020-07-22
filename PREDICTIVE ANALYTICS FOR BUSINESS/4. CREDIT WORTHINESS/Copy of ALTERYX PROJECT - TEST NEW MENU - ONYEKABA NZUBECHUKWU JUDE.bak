@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RoundRoastersTransactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Invoice Number" selected="True" />
+            <Field field="Invoice Date" selected="True" />
+            <Field field="SKU" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Product" selected="True" />
+            <Field field="QTY" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="Gross Margin" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Invoice Number" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Int32" />
+            <Field name="Invoice Date" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="SKU" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Category" size="8" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Product" size="18" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Byte" />
+            <Field name="Size" size="3" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Gross Margin" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="498" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Invoice Date] &gt;= '2015-03-20' AND [Invoice Date] &lt;= '2016-07-21' AND !IsEmpty([Region])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Invoice Date] &gt;= '2015-03-20' AND [Invoice Date] &lt;= '2016-07-21' AND !IsEmpty([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BIG-BOSS\AppData\Local\Temp\Engine_1496_4e2e776858774845b815f8b399307848_\Engine_7280_7cccdd27657448c5a74ca526a8571578_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BIG-BOSS\AppData\Local\Temp\Engine_1496_4e2e776858774845b815f8b399307848_\Engine_7280_773d200c15434088aafeb32db4cacb59_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=True,Invoice Number=True,Invoice Date=True,SKU=True,Category=True,Product=True,QTY=True,Size=True,Gross Margin=True,Sales=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="366" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Right_Name" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\BIG-BOSS\Desktop\PREDICTIVE ANALYSIS FOR BUSINESS\AB TEST A NEW MENU PROJECT\round-roaster-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Copy of ALTERYX PROJECT - TEST NEW MENU - ONYEKABA NZUBECHUKWU JUDE</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
