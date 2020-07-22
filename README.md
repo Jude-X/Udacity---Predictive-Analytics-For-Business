@@ -4,7 +4,7 @@ This repository contains the five (5) projects I completed in this Nanodegree us
 
 This repository contains projects for Udacity's [Predictive Analytics for Business Nanodegree](https://www.udacity.com/course/predictive-analytics-for-business-nanodegree--nd008).
 
-### Part 1: Problem Solving with Advanced Analytics
+### Part 1: Welcome to the Program
 
 A jewelry company wants to put in a bid to purchase a large set of diamonds, but is unsure how much it should bid. In this project, you will use the results from a predictive model to make a recommendation on how much the jewelry company should bid for the diamonds.
 
