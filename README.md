@@ -8,7 +8,7 @@ This repository contains projects for Udacity's [Predictive Analytics for Busine
 
 A jewelry company wants to put in a bid to purchase a large set of diamonds, but is unsure how much it should bid. In this project, you will use the results from a predictive model to make a recommendation on how much the jewelry company should bid for the diamonds.
 
-- Project: [Predict Diamond Prices]()
+- Project: [Predict Diamond Prices](https://github.com/Jude-X/Udacity---Predictive-Analytics-For-Business/tree/master/PREDICTIVE%20ANALYTICS%20FOR%20BUSINESS/1.%20DIAMOND%20PRICE%20PROJECT)
 
 ### Part 2: Problem Solving with Advanced Analytics
 
