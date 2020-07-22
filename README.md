@@ -6,9 +6,9 @@ This repository contains projects for Udacity's [Predictive Analytics for Busine
 
 ### Part 1: Problem Solving with Advanced Analytics
 
-Learn a structured framework for solving problems with advanced analytics. Learn to select the most appropriate analytical methodology. Also was introduced both Linear Regression and Multiple Linear Regression.
+A jewelry company wants to put in a bid to purchase a large set of diamonds, but is unsure how much it should bid. In this project, you will use the results from a predictive model to make a recommendation on how much the jewelry company should bid for the diamonds.
 
-- Project: [Predict Sales for a Catalog Launch]()
+- Project: [Predict Diamond Prices]()
 
 ### Part 2: Problem Solving with Advanced Analytics
 
